@@ -1,0 +1,40 @@
+<html>
+	<head>
+		<title>Forums</title>
+		<link rel="stylesheet" type="text/css" href="Assets/StyleSheets/forum.css">
+	</head>
+	<body>
+		<div id = "nav">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="theproblem.html">The Problem</a></li>
+				<li><a class="active" href="forum.html" class="selected">Forum</a></li>
+				<li><a href="cited.html">Works Cited</a></li>
+			</ul>
+		</div>
+		<div class = "main">
+			<div id="disqus_thread"></div>
+				<script>
+				/**
+     				*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+     				*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
+     				*/
+    				
+    				var disqus_config = function () {
+        				this.page.url = "http://users.admin.illinois.edu/ecbrown2/science_forum/" ;  // Replace PAGE_URL with your page's canonical URL variable
+        				this.page.identifier = "forum.html"; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    				};
+    				
+    				(function() {  // DON'T EDIT BELOW THIS LINE
+        				var d = document, s = d.createElement('script');
+        
+        				s.src = '//scienceforum.disqus.com/embed.js';
+        
+					s.setAttribute('data-timestamp', +new Date());
+        				(d.head || d.body).appendChild(s);
+    				})();
+				</script>
+				<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+	</body>
+</html>

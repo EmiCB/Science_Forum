@@ -1,0 +1,48 @@
+/* Nav Bar */
+#nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+	/*border: 1px solid black; /* Comment out after testing */
+	width: auto;
+	font-size: 25px;
+}
+#nav li {
+    float: left;
+}
+#nav li:last-child {
+    
+}
+#nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+#nav li a:hover:not(.active) {
+    text-decoration: underline;
+}
+#nav .active {
+    font-weight: bold;
+	font-size: 30px;
+}
+
+/* Login */
+.login_form {
+    border: 1px solid #AAA;
+    padding:10px;
+}
+
+/* Body */
+body {
+	background: black; /* For browsers that do not support gradients */
+	/*background: -webkit-linear-gradient(black, #00BFFF); /* For Safari 5.1 to 6.0 */
+	/*background: -o-linear-gradient(black, #00BFFF); /* For Opera 11.1 to 12.0 */
+	/*background: -moz-linear-gradient(black, #00BFFF); /* For Firefox 3.6 to 15 */
+	/*background: linear-gradient(black, #00BFFF); /* Standard syntax */
+	background-repeat: no-repeat;
+	height: auto;
+	width: auto;
+}
