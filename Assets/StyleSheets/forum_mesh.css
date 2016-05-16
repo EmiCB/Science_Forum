@@ -1,0 +1,92 @@
+/* Nav Bar */
+#nav ul {
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+	/*border: 1px solid white; /* Comment out after testing */
+	width: 750px;
+	font-size: 25px;
+}
+#nav li {
+    float: left;
+}
+#nav a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+#nav li a:hover:not(.active) {
+    text-decoration: underline;
+}
+#nav .active {
+    font-weight: bold;
+	font-size: 30px;
+}
+
+/* Login */
+.login_form {
+    border: 1px solid #AAA;
+    padding:10px;
+}
+
+/* Background */
+body {
+	/*background: black; /* For browsers that do not support gradients */
+	/*background: -webkit-linear-gradient(black, #00BFFF); /* For Safari 5.1 to 6.0 */
+	/*background: -o-linear-gradient(black, #00BFFF); /* For Opera 11.1 to 12.0 */
+	/*background: -moz-linear-gradient(black, #00BFFF); /* For Firefox 3.6 to 15 */
+	/*background: linear-gradient(black, #00BFFF); /* Standard syntax */
+	background-repeat: no-repeat;
+	height: 100%;
+	width: 100%;
+	
+	font-family: "console", monospace;
+	
+	background: -webkit-radial-gradient(center, circle, rgba(255,255,255,.35), rgba(255,255,255,0) 20%, rgba(255,255,255,0) 21%), -webkit-radial-gradient(center, circle, rgba(0,0,0,.2), rgba(0,0,0,0) 20%, rgba(0,0,0,0) 21%), -webkit-radial-gradient(center, circle farthest-corner, #f0f0f0, #c0c0c0);
+	background: -moz-radial-gradient(center, circle, rgba(255,255,255,.35), rgba(255,255,255,0) 20%, rgba(255,255,255,0) 21%), -webkit-radial-gradient(center, circle, rgba(0,0,0,.2), rgba(0,0,0,0) 20%, rgba(0,0,0,0) 21%), -webkit-radial-gradient(center, circle farthest-corner, #f0f0f0, #c0c0c0);
+	background: -ms-radial-gradient(center, circle, rgba(255,255,255,.35), rgba(255,255,255,0) 20%, rgba(255,255,255,0) 21%), -webkit-radial-gradient(center, circle, rgba(0,0,0,.2), rgba(0,0,0,0) 20%, rgba(0,0,0,0) 21%), -webkit-radial-gradient(center, circle farthest-corner, #f0f0f0, #c0c0c0);
+	background: -o-radial-gradient(center, circle, rgba(255,255,255,.35), rgba(255,255,255,0) 20%, rgba(255,255,255,0) 21%), -webkit-radial-gradient(center, circle, rgba(0,0,0,.2), rgba(0,0,0,0) 20%, rgba(0,0,0,0) 21%), -webkit-radial-gradient(center, circle farthest-corner, #f0f0f0, #c0c0c0);
+	background: radial-gradient(center, circle, rgba(255,255,255,.35), rgba(255,255,255,0) 20%, rgba(255,255,255,0) 21%), -webkit-radial-gradient(center, circle, rgba(0,0,0,.2), rgba(0,0,0,0) 20%, rgba(0,0,0,0) 21%), -webkit-radial-gradient(center, circle farthest-corner, #f0f0f0, #c0c0c0);
+	background-size: 10px 10px, 10px 10px, 100% 100%;
+	background-position: 1px 1px, 0px 0px, center center;
+	
+	top: 0;
+}
+
+/* Heading */
+div.heading{
+	border: 1px solid black;
+	border-radius: 30px;
+	margin-top: 10px;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-bottom: 15px;
+	padding-top: 10px;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-bottom: 10px;
+	height: auto;
+	padding-top: 5px;
+	
+	background:
+	/* On "top" */
+	repeating-linear-gradient(
+    45deg,
+    transparent,
+    transparent 10px,
+    #ccc 10px,
+    #ccc 20px),
+	/* on "bottom" */
+	linear-gradient(
+    to bottom,
+    #eee,
+    #999);
+	
+	text-align: center;
+	color: black;
+	font-size: 35px;
+	font-weight: bold;
+}

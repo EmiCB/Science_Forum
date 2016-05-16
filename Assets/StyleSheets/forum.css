@@ -29,7 +29,7 @@
 /* Login */
 .login_form {
     border: 1px solid #AAA;
-    padding:10px;
+    padding: 10px;
 }
 
 /* Background */
@@ -39,55 +39,13 @@ body {
 	/*background: -o-linear-gradient(black, #00BFFF); /* For Opera 11.1 to 12.0 */
 	/*background: -moz-linear-gradient(black, #00BFFF); /* For Firefox 3.6 to 15 */
 	/*background: linear-gradient(black, #00BFFF); /* Standard syntax */
-	
-	/*background-image: url("bg.png");*/
-	
 	background-repeat: no-repeat;
-	
 	height: 100%;
 	width: 100%;
 	
 	font-family: "console", monospace;
 	
 	overflow-x: hidden;
-}
-
-/* Text Container */
-/* div.textback {
-	border: 1px solid black;
-	border-radius: 30px;
-	
-	margin-left: 10%;
-	margin-right: 10%;
-	margin-top: 2%;
-	margin-bottom: 5%;
-	
-	background-color: rgba(0, 0, 0, .80);
-} */
-
-p {
-	text-indent: 50px;
-}
-
-div.content{
-	text-align: left;
-	font-size: 20px;
-	color: white;
-	
-	/*
-	background-color: rgba(0,0,0,.85);
-	border-radius: 35px;
-	*/
-	margin-top: 10px;
-	margin-left: 10%;
-	margin-right: 10%;
-	margin-bottom: 5%;
-	padding-top: 10px;
-	padding-left: 50px;
-	padding-right: 50px;
-	padding-bottom: 10px;
-	height: auto;
-	padding-top: 5px;
 }
 
 /* Heading */
@@ -123,18 +81,4 @@ div.heading{
 	color: black;
 	font-size: 35px;
 	font-weight: bold;
-}
-
-/* Videos */
-div.vid {
-	
-}
-
-/* Images */
-div.image {
-	border: 5px inset gray;
-	border-radius: 30px;
-	height: 250px;
-	width: 500px;
-	background-image: url("f9land.png")
 }
